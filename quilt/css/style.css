@@ -1,0 +1,46 @@
+* { 
+  margin: 0;  
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    height: 100vh;                         
+    width: 100%;                          
+}
+
+.block1 { background-image: url('https://i.pinimg.com/736x/6f/e1/7e/6fe17e8e109b26476458c4424df5a7ed.jpg'); 
+background-size: cover;
+background-position: center; } 
+.block2 { background-color: #D6F0FF; }
+.block3 { background-color: #FFF1B8; } 
+.block4 { background-color: #D6FFD6; } 
+.block5 { background-color: #EAD6FF;} 
+.block6 { background-image: url('https://i.pinimg.com/736x/6f/e1/7e/6fe17e8e109b26476458c4424df5a7ed.jpg'); 
+background-size: cover;
+background-position: center;} 
+.block7 { background-color: #D6F0FF; } 
+.block8 { background-image: url('https://i.pinimg.com/736x/87/11/a7/8711a772db37cd227795e22dda3fe1e2.jpg'); 
+background-size: cover;
+background-position: center; } 
+.block9 { background-color: #D6FFD6; } 
+.block10 { background-image: url('https://i.pinimg.com/736x/ee/f9/93/eef993e43276e79448e4ac17357daa0a.jpg'); 
+background-size: cover;
+background-position: center; } 
+.block11 { background-color: #FFD6D6; } 
+.block12 { background-color: #D6F0FF; } 
+.block13 { background-color: #FFF1B8; } 
+.block14 {  background-image: url('https://i.pinimg.com/736x/a6/77/4e/a6774eed7d1aee9a136e2aac05b7618e.jpg'); 
+background-size: cover;
+background-position: center;} 
+.block15 { background-color: #EAD6FF; } 
+.block16 { background-color: #FFD6D6; } 
+.block17 { background-color: #D6F0FF; } 
+.block18 { background-image: url('https://i.pinimg.com/736x/87/11/a7/8711a772db37cd227795e22dda3fe1e2.jpg'); 
+background-size: cover;
+background-position: center; } 
+.block19 {  background-image: url('https://i.pinimg.com/736x/a6/77/4e/a6774eed7d1aee9a136e2aac05b7618e.jpg'); 
+background-size: cover;
+background-position: center; } 
+.block20 { background-color: #EAD6FF; } 
+.block21 { background-color: #FFD6D6; }
