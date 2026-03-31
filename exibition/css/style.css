@@ -1,0 +1,105 @@
+body {
+  background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+  margin: 0;
+  font-family: "Georgia", serif;
+  background: linear-gradient(to bottom, #f7f4f1, #efe7e7);
+  color: #4a4a4a;
+}
+
+
+.left {
+  width: 28%;
+  float: left;
+  padding: 50px 30px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.left h1 {
+  font-size: 2.5em;
+  color: #d6a4a4;
+  margin-bottom: 10px;
+}
+
+.left h2 {
+  font-weight: normal;
+  font-size: 1.2em;
+  color: #a8bfa3;
+  margin-bottom: 30px;
+}
+
+.left p {
+  line-height: 1.7;
+  font-size: 0.95em;
+}
+
+
+.right {
+  width: 72%;
+  float: right;
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+
+.artwork {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(6px);
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.artwork:hover {
+  transform: scale(1.02);
+}
+
+
+img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+
+.artwork p {
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+
+.right::-webkit-scrollbar {
+  width: 6px;
+}
+
+.right::-webkit-scrollbar-thumb {
+  background: #d6a4a4;
+  border-radius: 10px;
+}
+
+
+@media screen and (max-width: 992px) {
+  .left, .right {
+    width: 100%;
+    float: none;
+    height: auto;
+  }
+
+  .right {
+    overflow: visible;
+  }
+}
+
+
+.right {
+  position: relative;  
+}
+
+.artwork img {
+  pointer-events: auto; 
+  cursor: pointer;     
+}
