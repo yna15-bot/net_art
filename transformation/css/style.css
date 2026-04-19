@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f7f4f2; 
+    color: #333;
+    overflow: hidden;
+    transition: all 0.6s ease;
+}
+
+#container {text-align: center;}
+
+h1 {font-size: 3rem;
+    margin: 0;}
+
+p {opacity: 0.6;}
+
+body.chaos {background-color: #111;
+    color: #fff;}
+
+.thought {
+    position: absolute;
+    font-size: 1.2rem;
+    opacity: 0.8;
+    animation: float 5s infinite alternate;
+}
+
+@keyframes float {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-20px);
+    }
+}
