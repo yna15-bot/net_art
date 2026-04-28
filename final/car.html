@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<audio autoplay loop>
+  <source src="audio/car.mp3" type="audio/mpeg">
+</audio>
+
+<div class="background" style="background-image: url('images/car.jpg');"></div>
+<div class="overlay"></div>
+
+<div class="container">
+  <p class="text">
+    the windows are down.<br>
+    the air is warm, but it’s changing.<br>
+    someone is playing a song you’ll forget later.
+  </p>
+
+  <p id="extra" class="hidden text">
+    you think this might be the last time it feels like this,
+    but you don’t say anything.
+  </p>
+
+  <button onclick="reveal('extra')">stay in the moment</button>
+  <button onclick="goTo('beach')">watch the sky fade</button>
+  <button onclick="goTo('friends')">turn the music up</button>
+  <button onclick="goTo('ending')">stay until the song ends</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

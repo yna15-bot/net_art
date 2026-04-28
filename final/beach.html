@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<audio autoplay loop>
+  <source src="audio/beach.mp3" type="audio/mpeg">
+</audio>
+
+<div class="background" style="background-image: url('images/beach.jpg');"></div>
+<div class="overlay"></div>
+
+<div class="container">
+  <p class="text">
+    the sand is still warm.<br>
+    the sun is starting to leave anyway.
+  </p>
+
+  <p id="extra" class="hidden text">
+    you think someone called your name, but maybe that was earlier.
+  </p>
+
+  <button onclick="reveal('extra')">stay a little longer</button>
+  <button onclick="goTo('car')">leave before it gets dark</button>
+  <button onclick="goTo('ending')">watch the sun disappear</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
