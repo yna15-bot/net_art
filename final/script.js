@@ -5,3 +5,7 @@ function goTo(page) {
 function reveal(id) {
   document.getElementById(id).style.display = "block";
 }
+function freezeMoment() {
+  document.querySelector("audio").pause();
+  document.body.style.filter = "grayscale(100%)";
+}

@@ -16,15 +16,23 @@
 <div class="container">
   <p class="text">
     everyone is laughing.<br>
-    you’re not sure why, but you laugh too.
+    you’re not sure why, but you laugh too. <br>
+    someone is telling a story you’ve already heard.<br>
+everyone laughs anyway.<br><br>
+your phone gets passed around for pictures<br>
+you never see again.
   </p>
 
   <p id="extra" class="hidden text">
-    later, you won’t remember what was funny.
+   you remember this being louder.<br>
+or maybe just fuller.
   </p>
 
-  <button onclick="reveal('extra')">stay</button>
+<button id="stayBtn" onclick="revealAndRemove('extra', 'stayBtn')">
+  stay </button>
+  <button onclick="freezeMoment()">stop time</button>
   <button onclick="goTo('car')">step away for a second</button>
+
 </div>
 
 <script src="script.js"></script>

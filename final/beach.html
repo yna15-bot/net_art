@@ -15,15 +15,20 @@
 
 <div class="container">
   <p class="text">
-    the sand is still warm.<br>
-    the sun is starting to leave anyway.
+    the sand sticks to your hands.<br>
+your water bottle is already warm.<br><br>
+
+someone calls your name from far away.<br>
+you don’t answer right away.
   </p>
 
   <p id="extra" class="hidden text">
-    you think someone called your name, but maybe that was earlier.
+    you think if you wait long enough,<br>
+you won’t have to leave at all.
   </p>
 
-  <button onclick="reveal('extra')">stay a little longer</button>
+  <button id="stayBtn" onclick="revealAndRemove('extra', 'stayBtn')">
+  stay a little longer </button>
   <button onclick="goTo('car')">leave before it gets dark</button>
   <button onclick="goTo('ending')">watch the sun disappear</button>
 </div>
