@@ -9,3 +9,19 @@ function freezeMoment() {
   document.querySelector("audio").pause();
   document.body.style.filter = "grayscale(100%)";
 }
+
+
+function revealAndRemove(textId, buttonId) {
+  document.getElementById(textId).style.display = "block";
+  document.getElementById(buttonId).style.display = "none";
+}
+
+function revealAndRemove(textId, buttonId) {
+  document.getElementById(textId).style.display = "block";
+  document.getElementById(buttonId).style.display = "none";
+}
+
+function revealAndRemove(textId, buttonId) {
+  document.getElementById(textId).style.display = "block";
+  document.getElementById(buttonId).style.display = "none";
+}
